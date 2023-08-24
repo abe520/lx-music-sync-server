@@ -28,5 +28,5 @@ jobs:
  
           - name: 'Build Inventory Image'
             run: |
-              docker build . --tag ghcr.io/${{username}}/lx-music-sync-server:latest
-              docker push ghcr.io/${{username}}/lx-music-sync-server:latest
+              docker build . --tag ghcr.io/abe520/lx-music-sync-server:latest
+              docker push ghcr.io/abe520/lx-music-sync-server:latest
